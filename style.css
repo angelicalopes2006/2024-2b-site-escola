@@ -9,7 +9,7 @@
 :root{
     --verde:#04E762;
     --laranja: #F5B700;
-    --rosa: #DC0073;
+    --rosa: #101152;
     --azul: #008BF8;
     --fonte-texto:"truculenta", sans-serif;
     --fonte-titulo:"0juju", sans-serif;
@@ -80,4 +80,16 @@
 }
 .estudante-div-nome{
     margin: 8px 0;
+    font-family: var(--fonte-texto);
+    font-size: 1.3em;
+}
+.rodape{
+    background-color: var(--azul);
+    text-align: center;
+}
+.rodape-logo{
+    width: 5%;
+    border-radius: 100%;
+    margin: 1em;
+    padding: 12px 0;
 }
